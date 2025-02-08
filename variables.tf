@@ -1,13 +1,12 @@
 variable "labelPrefix" {
-  description = "A prefix label to be used for naming resources"
+  description = "Your college username. This will form the beginning of various resource names."
   type        = string
-  default     = "myapp"
 }
 
 variable "region" {
   description = "Azure region for resource deployment"
   type        = string
-  default     = "East US"
+  default     = "Canada Central"
 }
 
 variable "admin_username" {
